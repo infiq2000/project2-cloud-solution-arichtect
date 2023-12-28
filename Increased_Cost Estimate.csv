@@ -1,0 +1,17 @@
+Upfront cost, Monthly cost, Total 12 months cost, Currency
+5000, 19800.50, 238806.00, USD
+,,* Includes upfront cost
+
+Group hierarchy, Region, Description, Service, Upfront, Monthly, First 12 months total, Currency, Status, Configuration summary
+My Estimate, US West (Oregon), , VPN Connection, 500, 80, 960.00, USD, , "Working days per month (20), Number of Site-to-Site VPN Connections (1)"
+My Estimate, US West (Oregon), , Amazon Route 53, 200, 150, 1800.00, USD, , "Hosted Zones (2), Number of Elastic Network Interfaces (3)"
+My Estimate, US West (Oregon), , Amazon EC2 , 1000, 7500.25, 90003.00, USD, , "Tenancy (Shared Instances), Operating system (Windows), Workload (Variable, Number of instances: 5), Advance EC2 instance (m5.2xlarge), Pricing strategy (Reserved: 1 Year All Upfront), Enable monitoring (enabled), EBS Storage amount (2 TB), DT Inbound: Selected (10 TB per month), DT Outbound: Selected (5 TB per month), DT Intra-Region: (2 TB per month)"
+My Estimate, US West (Oregon), , Amazon RDS for PostgreSQL, 800, 10500.75, 126009.00, USD, , "Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (3 TB), Quantity (1), Instance type (db.r5.4xlarge), Utilization (Reserved: 1 Year Partial Upfront), Deployment option (Single-AZ), Pricing strategy (OnDemand), Additional backup storage (5 TB)"
+My Estimate, US West (Oregon), , S3 Standard, 300, 350.75, 4209.00, USD, , "S3 Standard storage (15 TB per month)"
+My Estimate, US West (Oregon), , AWS Data Transfer, 0, 0, 0.00, USD, , "DT Inbound: Selected (5 TB per month), DT Outbound: Selected (2 TB per month), DT Intra-Region: (1 TB per month)"
+My Estimate, US West (Oregon), , Amazon Elastic IP, 50, 0, 0.00, USD, , "Number of EC2 instances (3), Number of EIPs per instance (2)"
+My Estimate, US West (Oregon), , Application Load Balancer, 150, 450.25, 5403.00, USD, , "Number of Application Load Balancers (3)"
+My Estimate, US West (Oregon), , Amazon CloudWatch, 250, 1800.50, 21606.00, USD, , "Number of Metrics (includes detailed and custom metrics) (8000), Standard Logs: Data Ingested (2 GB), Logs Delivered to CloudWatch Logs: Data Ingested (2 GB), Logs Delivered to S3: Data Ingested (2 GB)"
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
